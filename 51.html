@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <label> Digite o valor</label>
+    <input type="text" name="nome" id="valor">
+    <button onclick="verificar()">ok</button>
+    <div id="saida"></div>
+</body>
+</html>
+<script>
+   function verificar(){
+        var A = document.getElementById("valor").value;
+        var B = document.getElementById("valor").value;
+
+        if (valor >=0 && valor <=9){
+            document.getElementById("valor").innerHTML = "Positivo";
+
+        } else { (valor >=0 && valor <=9)
+            document.getElementById("valor").innerHTML = "Negativo";
+        }
+        }
+<script/>
